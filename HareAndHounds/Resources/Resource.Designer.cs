@@ -68,6 +68,42 @@ namespace HareAndHounds
 		public partial class Attribute
 		{
 			
+			// aapt resource value: 0x7f010000
+			public const int cardBackgroundColor = 2130771968;
+			
+			// aapt resource value: 0x7f010001
+			public const int cardCornerRadius = 2130771969;
+			
+			// aapt resource value: 0x7f010002
+			public const int cardElevation = 2130771970;
+			
+			// aapt resource value: 0x7f010003
+			public const int cardMaxElevation = 2130771971;
+			
+			// aapt resource value: 0x7f010005
+			public const int cardPreventCornerOverlap = 2130771973;
+			
+			// aapt resource value: 0x7f010004
+			public const int cardUseCompatPadding = 2130771972;
+			
+			// aapt resource value: 0x7f010006
+			public const int contentPadding = 2130771974;
+			
+			// aapt resource value: 0x7f01000a
+			public const int contentPaddingBottom = 2130771978;
+			
+			// aapt resource value: 0x7f010007
+			public const int contentPaddingLeft = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int contentPaddingRight = 2130771976;
+			
+			// aapt resource value: 0x7f010009
+			public const int contentPaddingTop = 2130771977;
+			
+			// aapt resource value: 0x7f01000b
+			public const int typeface = 2130771979;
+			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -81,41 +117,53 @@ namespace HareAndHounds
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f050007
-			public const int btn_bg_color = 2131034119;
-			
-			// aapt resource value: 0x7f05000a
-			public const int btn_bg_color_blue = 2131034122;
-			
-			// aapt resource value: 0x7f050008
-			public const int btn_bg_shadow_color = 2131034120;
-			
 			// aapt resource value: 0x7f05000b
-			public const int btn_bg_shadow_color_blue = 2131034123;
+			public const int btn_bg_color = 2131034123;
 			
-			// aapt resource value: 0x7f050009
-			public const int quest_color = 2131034121;
+			// aapt resource value: 0x7f05000e
+			public const int btn_bg_color_blue = 2131034126;
 			
-			// aapt resource value: 0x7f050002
-			public const int xam_blue = 2131034114;
+			// aapt resource value: 0x7f05000c
+			public const int btn_bg_shadow_color = 2131034124;
+			
+			// aapt resource value: 0x7f05000f
+			public const int btn_bg_shadow_color_blue = 2131034127;
 			
 			// aapt resource value: 0x7f050000
-			public const int xam_dark_blue = 2131034112;
-			
-			// aapt resource value: 0x7f050005
-			public const int xam_gray = 2131034117;
-			
-			// aapt resource value: 0x7f050003
-			public const int xam_green = 2131034115;
-			
-			// aapt resource value: 0x7f050004
-			public const int xam_light_gray = 2131034116;
-			
-			// aapt resource value: 0x7f050006
-			public const int xam_medium_blue = 2131034118;
+			public const int cardview_dark_background = 2131034112;
 			
 			// aapt resource value: 0x7f050001
-			public const int xam_purple = 2131034113;
+			public const int cardview_light_background = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int cardview_shadow_end_color = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int cardview_shadow_start_color = 2131034115;
+			
+			// aapt resource value: 0x7f05000d
+			public const int quest_color = 2131034125;
+			
+			// aapt resource value: 0x7f050006
+			public const int xam_blue = 2131034118;
+			
+			// aapt resource value: 0x7f050004
+			public const int xam_dark_blue = 2131034116;
+			
+			// aapt resource value: 0x7f050009
+			public const int xam_gray = 2131034121;
+			
+			// aapt resource value: 0x7f050007
+			public const int xam_green = 2131034119;
+			
+			// aapt resource value: 0x7f050008
+			public const int xam_light_gray = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int xam_medium_blue = 2131034122;
+			
+			// aapt resource value: 0x7f050005
+			public const int xam_purple = 2131034117;
 			
 			static Color()
 			{
@@ -127,32 +175,282 @@ namespace HareAndHounds
 			}
 		}
 		
+		public partial class Dimension
+		{
+			
+			// aapt resource value: 0x7f060003
+			public const int btn_corner_radius = 2131099651;
+			
+			// aapt resource value: 0x7f060000
+			public const int cardview_compat_inset_shadow = 2131099648;
+			
+			// aapt resource value: 0x7f060001
+			public const int cardview_default_elevation = 2131099649;
+			
+			// aapt resource value: 0x7f060002
+			public const int cardview_default_radius = 2131099650;
+			
+			static Dimension()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Dimension()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ab_background_textured_quest = 2130837504;
 			
 			// aapt resource value: 0x7f020001
-			public const int place_map1 = 2130837505;
+			public const int ab_bottom_solid_quest = 2130837505;
 			
 			// aapt resource value: 0x7f020002
-			public const int place_map2 = 2130837506;
+			public const int ab_solid_quest = 2130837506;
 			
 			// aapt resource value: 0x7f020003
-			public const int place_map3 = 2130837507;
+			public const int ab_stacked_solid_quest = 2130837507;
 			
 			// aapt resource value: 0x7f020004
-			public const int place_map4 = 2130837508;
+			public const int ab_texture_tile_quest = 2130837508;
 			
 			// aapt resource value: 0x7f020005
-			public const int place_map5 = 2130837509;
+			public const int ab_transparent_quest = 2130837509;
 			
 			// aapt resource value: 0x7f020006
-			public const int place_map6 = 2130837510;
+			public const int btn_bg = 2130837510;
 			
 			// aapt resource value: 0x7f020007
-			public const int ripple_background = 2130837511;
+			public const int btn_bg_blue = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int btn_bg_inactive = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int btn_bg_inactive_blue = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int btn_bg_inactive_trans = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int btn_bg_normal = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int btn_bg_normal_blue = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int btn_bg_normal_trans = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int btn_bg_pressed = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int btn_bg_pressed_blue = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int btn_bg_pressed_trans = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int btn_bg_trans = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int btn_cab_done_default_quest = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int btn_cab_done_focused_quest = 2130837523;
+			
+			// aapt resource value: 0x7f020014
+			public const int btn_cab_done_pressed_quest = 2130837524;
+			
+			// aapt resource value: 0x7f020015
+			public const int btn_cab_done_quest = 2130837525;
+			
+			// aapt resource value: 0x7f020016
+			public const int cab_background_bottom_quest = 2130837526;
+			
+			// aapt resource value: 0x7f020017
+			public const int cab_background_top_quest = 2130837527;
+			
+			// aapt resource value: 0x7f020018
+			public const int ic_action_about = 2130837528;
+			
+			// aapt resource value: 0x7f020019
+			public const int ic_action_scan = 2130837529;
+			
+			// aapt resource value: 0x7f02001a
+			public const int ic_banana = 2130837530;
+			
+			// aapt resource value: 0x7f02001b
+			public const int ic_code = 2130837531;
+			
+			// aapt resource value: 0x7f02001c
+			public const int ic_game_completed = 2130837532;
+			
+			// aapt resource value: 0x7f02001d
+			public const int ic_launcher = 2130837533;
+			
+			// aapt resource value: 0x7f02001e
+			public const int ic_no_banana = 2130837534;
+			
+			// aapt resource value: 0x7f02001f
+			public const int ic_quest_completed = 2130837535;
+			
+			// aapt resource value: 0x7f020020
+			public const int ic_question = 2130837536;
+			
+			// aapt resource value: 0x7f020021
+			public const int ic_secret_prize = 2130837537;
+			
+			// aapt resource value: 0x7f020022
+			public const int ic_star = 2130837538;
+			
+			// aapt resource value: 0x7f020023
+			public const int Icon = 2130837539;
+			
+			// aapt resource value: 0x7f020024
+			public const int list_focused_quest = 2130837540;
+			
+			// aapt resource value: 0x7f020025
+			public const int list_pressed_quest = 2130837541;
+			
+			// aapt resource value: 0x7f020026
+			public const int menu_dropdown_panel_quest = 2130837542;
+			
+			// aapt resource value: 0x7f020027
+			public const int place_map1 = 2130837543;
+			
+			// aapt resource value: 0x7f020028
+			public const int place_map2 = 2130837544;
+			
+			// aapt resource value: 0x7f020029
+			public const int place_map3 = 2130837545;
+			
+			// aapt resource value: 0x7f02002a
+			public const int place_map4 = 2130837546;
+			
+			// aapt resource value: 0x7f02002b
+			public const int place_map5 = 2130837547;
+			
+			// aapt resource value: 0x7f02002c
+			public const int place_map6 = 2130837548;
+			
+			// aapt resource value: 0x7f02002d
+			public const int progress_bg_quest = 2130837549;
+			
+			// aapt resource value: 0x7f02002e
+			public const int progress_horizontal_quest = 2130837550;
+			
+			// aapt resource value: 0x7f02002f
+			public const int progress_primary_quest = 2130837551;
+			
+			// aapt resource value: 0x7f020030
+			public const int progress_secondary_quest = 2130837552;
+			
+			// aapt resource value: 0x7f020031
+			public const int quest_map1 = 2130837553;
+			
+			// aapt resource value: 0x7f020032
+			public const int quest_map2 = 2130837554;
+			
+			// aapt resource value: 0x7f020033
+			public const int quest_map3 = 2130837555;
+			
+			// aapt resource value: 0x7f020034
+			public const int quest_map4 = 2130837556;
+			
+			// aapt resource value: 0x7f020035
+			public const int quest_map5 = 2130837557;
+			
+			// aapt resource value: 0x7f020036
+			public const int quest_map6 = 2130837558;
+			
+			// aapt resource value: 0x7f020037
+			public const int quest_progress_bg_holo_light = 2130837559;
+			
+			// aapt resource value: 0x7f020038
+			public const int quest_progress_horizontal_holo_light = 2130837560;
+			
+			// aapt resource value: 0x7f020039
+			public const int quest_progress_indeterminate_horizontal_holo_light = 2130837561;
+			
+			// aapt resource value: 0x7f02003a
+			public const int quest_progress_primary_holo_light = 2130837562;
+			
+			// aapt resource value: 0x7f02003b
+			public const int quest_progress_secondary_holo_light = 2130837563;
+			
+			// aapt resource value: 0x7f02003c
+			public const int quest_progressbar_indeterminate_holo1 = 2130837564;
+			
+			// aapt resource value: 0x7f02003d
+			public const int quest_progressbar_indeterminate_holo2 = 2130837565;
+			
+			// aapt resource value: 0x7f02003e
+			public const int quest_progressbar_indeterminate_holo3 = 2130837566;
+			
+			// aapt resource value: 0x7f02003f
+			public const int quest_progressbar_indeterminate_holo4 = 2130837567;
+			
+			// aapt resource value: 0x7f020040
+			public const int quest_progressbar_indeterminate_holo5 = 2130837568;
+			
+			// aapt resource value: 0x7f020041
+			public const int quest_progressbar_indeterminate_holo6 = 2130837569;
+			
+			// aapt resource value: 0x7f020042
+			public const int quest_progressbar_indeterminate_holo7 = 2130837570;
+			
+			// aapt resource value: 0x7f020043
+			public const int quest_progressbar_indeterminate_holo8 = 2130837571;
+			
+			// aapt resource value: 0x7f020044
+			public const int ripple_background = 2130837572;
+			
+			// aapt resource value: 0x7f020045
+			public const int selectable_background_quest = 2130837573;
+			
+			// aapt resource value: 0x7f020046
+			public const int spinner_ab_default_quest = 2130837574;
+			
+			// aapt resource value: 0x7f020047
+			public const int spinner_ab_disabled_quest = 2130837575;
+			
+			// aapt resource value: 0x7f020048
+			public const int spinner_ab_focused_quest = 2130837576;
+			
+			// aapt resource value: 0x7f020049
+			public const int spinner_ab_pressed_quest = 2130837577;
+			
+			// aapt resource value: 0x7f02004a
+			public const int spinner_background_ab_quest = 2130837578;
+			
+			// aapt resource value: 0x7f02004b
+			public const int tab_indicator_ab_quest = 2130837579;
+			
+			// aapt resource value: 0x7f02004c
+			public const int tab_selected_focused_quest = 2130837580;
+			
+			// aapt resource value: 0x7f02004d
+			public const int tab_selected_pressed_quest = 2130837581;
+			
+			// aapt resource value: 0x7f02004e
+			public const int tab_selected_quest = 2130837582;
+			
+			// aapt resource value: 0x7f02004f
+			public const int tab_unselected_focused_quest = 2130837583;
+			
+			// aapt resource value: 0x7f020050
+			public const int tab_unselected_pressed_quest = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int tab_unselected_quest = 2130837585;
+			
+			// aapt resource value: 0x7f020052
+			public const int xamarin_icon = 2130837586;
 			
 			static Drawable()
 			{
@@ -167,26 +465,113 @@ namespace HareAndHounds
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int background = 2131165184;
+			// aapt resource value: 0x7f09001f
+			public const int awesome = 2131296287;
 			
-			// aapt resource value: 0x7f070006
-			public const int button_continue = 2131165190;
+			// aapt resource value: 0x7f090010
+			public const int background = 2131296272;
 			
-			// aapt resource value: 0x7f070003
-			public const int button_play = 2131165187;
+			// aapt resource value: 0x7f090019
+			public const int beacon1 = 2131296281;
 			
-			// aapt resource value: 0x7f070004
-			public const int main_image = 2131165188;
+			// aapt resource value: 0x7f09001a
+			public const int beacon2 = 2131296282;
 			
-			// aapt resource value: 0x7f070005
-			public const int main_text = 2131165189;
+			// aapt resource value: 0x7f09001b
+			public const int beacon3 = 2131296283;
 			
-			// aapt resource value: 0x7f070002
-			public const int map = 2131165186;
+			// aapt resource value: 0x7f090013
+			public const int button_about = 2131296275;
 			
-			// aapt resource value: 0x7f070001
-			public const int map_scroll = 2131165185;
+			// aapt resource value: 0x7f090023
+			public const int button_answer = 2131296291;
+			
+			// aapt resource value: 0x7f090022
+			public const int button_cancel = 2131296290;
+			
+			// aapt resource value: 0x7f09001d
+			public const int button_continue = 2131296285;
+			
+			// aapt resource value: 0x7f090015
+			public const int button_play = 2131296277;
+			
+			// aapt resource value: 0x7f090016
+			public const int card_view = 2131296278;
+			
+			// aapt resource value: 0x7f090020
+			public const int congrats = 2131296288;
+			
+			// aapt resource value: 0x7f090021
+			public const int hint = 2131296289;
+			
+			// aapt resource value: 0x7f090017
+			public const int main_image = 2131296279;
+			
+			// aapt resource value: 0x7f09001c
+			public const int main_text = 2131296284;
+			
+			// aapt resource value: 0x7f090012
+			public const int map = 2131296274;
+			
+			// aapt resource value: 0x7f090011
+			public const int map_scroll = 2131296273;
+			
+			// aapt resource value: 0x7f090014
+			public const int progressBar = 2131296276;
+			
+			// aapt resource value: 0x7f090000
+			public const int roboto_black = 2131296256;
+			
+			// aapt resource value: 0x7f090001
+			public const int roboto_black_italic = 2131296257;
+			
+			// aapt resource value: 0x7f090002
+			public const int roboto_bold = 2131296258;
+			
+			// aapt resource value: 0x7f090003
+			public const int roboto_bold_italic = 2131296259;
+			
+			// aapt resource value: 0x7f090004
+			public const int roboto_condensed = 2131296260;
+			
+			// aapt resource value: 0x7f090005
+			public const int roboto_condensed_bold = 2131296261;
+			
+			// aapt resource value: 0x7f090006
+			public const int roboto_condensed_bold_italic = 2131296262;
+			
+			// aapt resource value: 0x7f090007
+			public const int roboto_condensed_italic = 2131296263;
+			
+			// aapt resource value: 0x7f090008
+			public const int roboto_italic = 2131296264;
+			
+			// aapt resource value: 0x7f090009
+			public const int roboto_light = 2131296265;
+			
+			// aapt resource value: 0x7f09000a
+			public const int roboto_light_italic = 2131296266;
+			
+			// aapt resource value: 0x7f09000b
+			public const int roboto_medium = 2131296267;
+			
+			// aapt resource value: 0x7f09000c
+			public const int roboto_medium_italic = 2131296268;
+			
+			// aapt resource value: 0x7f09000d
+			public const int roboto_regular = 2131296269;
+			
+			// aapt resource value: 0x7f09000e
+			public const int roboto_thin = 2131296270;
+			
+			// aapt resource value: 0x7f09000f
+			public const int roboto_thin_italic = 2131296271;
+			
+			// aapt resource value: 0x7f090018
+			public const int text_beacons = 2131296280;
+			
+			// aapt resource value: 0x7f09001e
+			public const int text_quest_number = 2131296286;
 			
 			static Id()
 			{
@@ -207,6 +592,9 @@ namespace HareAndHounds
 			// aapt resource value: 0x7f030001
 			public const int Place = 2130903041;
 			
+			// aapt resource value: 0x7f030002
+			public const int Question = 2130903042;
+			
 			static Layout()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -220,11 +608,104 @@ namespace HareAndHounds
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int ApplicationName = 2131099649;
+			// aapt resource value: 0x7f080008
+			public const int about = 2131230728;
 			
-			// aapt resource value: 0x7f060000
-			public const int Hello = 2131099648;
+			// aapt resource value: 0x7f08001b
+			public const int all_found = 2131230747;
+			
+			// aapt resource value: 0x7f080016
+			public const int almost_there = 2131230742;
+			
+			// aapt resource value: 0x7f080002
+			public const int answer = 2131230722;
+			
+			// aapt resource value: 0x7f080004
+			public const int app_name = 2131230724;
+			
+			// aapt resource value: 0x7f08000c
+			public const int awesome = 2131230732;
+			
+			// aapt resource value: 0x7f08000b
+			public const int beacons_near = 2131230731;
+			
+			// aapt resource value: 0x7f08000e
+			public const int brilliant = 2131230734;
+			
+			// aapt resource value: 0x7f080001
+			public const int cancel = 2131230721;
+			
+			// aapt resource value: 0x7f08001a
+			public const int code_hint = 2131230746;
+			
+			// aapt resource value: 0x7f080015
+			public const int completed = 2131230741;
+			
+			// aapt resource value: 0x7f08001d
+			public const int congratulations = 2131230749;
+			
+			// aapt resource value: 0x7f080003
+			public const int continue_game = 2131230723;
+			
+			// aapt resource value: 0x7f080013
+			public const int continue_quest = 2131230739;
+			
+			// aapt resource value: 0x7f080019
+			public const int correct_answer = 2131230745;
+			
+			// aapt resource value: 0x7f080018
+			public const int correct_code = 2131230744;
+			
+			// aapt resource value: 0x7f080006
+			public const int enter_code = 2131230726;
+			
+			// aapt resource value: 0x7f08000d
+			public const int fantastic = 2131230733;
+			
+			// aapt resource value: 0x7f08001c
+			public const int finish_quest = 2131230748;
+			
+			// aapt resource value: 0x7f080020
+			public const int game_end = 2131230752;
+			
+			// aapt resource value: 0x7f080007
+			public const int menu_about = 2131230727;
+			
+			// aapt resource value: 0x7f080005
+			public const int menu_scan = 2131230725;
+			
+			// aapt resource value: 0x7f080009
+			public const int mission = 2131230729;
+			
+			// aapt resource value: 0x7f08000a
+			public const int no_beacons = 2131230730;
+			
+			// aapt resource value: 0x7f080012
+			public const int not_so_fast_code = 2131230738;
+			
+			// aapt resource value: 0x7f080011
+			public const int not_so_fast_question = 2131230737;
+			
+			// aapt resource value: 0x7f080000
+			public const int play = 2131230720;
+			
+			// aapt resource value: 0x7f080014
+			public const int quest = 2131230740;
+			
+			// aapt resource value: 0x7f08001e
+			public const int share_success = 2131230750;
+			
+			// aapt resource value: 0x7f08001f
+			public const int success_tweet = 2131230751;
+			
+			// aapt resource value: 0x7f080017
+			public const int thats_it = 2131230743;
+			
+			// aapt resource value: 0x7f08000f
+			public const int you_found_beacons = 2131230735;
+			
+			// aapt resource value: 0x7f080010
+			public const int you_found_beacons_code = 2131230736;
 			
 			static String()
 			{
@@ -232,6 +713,126 @@ namespace HareAndHounds
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f070005
+			public const int ActionBar_Solid_Quest = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int ActionBar_Transparent_Quest = 2131165190;
+			
+			// aapt resource value: 0x7f070009
+			public const int ActionBarTabStyle_Quest = 2131165193;
+			
+			// aapt resource value: 0x7f07000c
+			public const int ActionButton_CloseMode_Quest = 2131165196;
+			
+			// aapt resource value: 0x7f070000
+			public const int CardView = 2131165184;
+			
+			// aapt resource value: 0x7f070001
+			public const int CardView_Dark = 2131165185;
+			
+			// aapt resource value: 0x7f070002
+			public const int CardView_Light = 2131165186;
+			
+			// aapt resource value: 0x7f070008
+			public const int DropDownListView_Quest = 2131165192;
+			
+			// aapt resource value: 0x7f07000a
+			public const int DropDownNav_Quest = 2131165194;
+			
+			// aapt resource value: 0x7f070007
+			public const int PopupMenu_Quest = 2131165191;
+			
+			// aapt resource value: 0x7f07000b
+			public const int ProgressBar_Quest = 2131165195;
+			
+			// aapt resource value: 0x7f070003
+			public const int ProgressBarQuest = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int Theme_Quest = 2131165188;
+			
+			// aapt resource value: 0x7f07000d
+			public const int Theme_Quest_Widget = 2131165197;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
+			{
+			}
+		}
+		
+		public partial class Styleable
+		{
+			
+			public static int[] CardView = new int[] {
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971,
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
+			
+			// aapt resource value: 0
+			public const int CardView_cardBackgroundColor = 0;
+			
+			// aapt resource value: 1
+			public const int CardView_cardCornerRadius = 1;
+			
+			// aapt resource value: 2
+			public const int CardView_cardElevation = 2;
+			
+			// aapt resource value: 3
+			public const int CardView_cardMaxElevation = 3;
+			
+			// aapt resource value: 5
+			public const int CardView_cardPreventCornerOverlap = 5;
+			
+			// aapt resource value: 4
+			public const int CardView_cardUseCompatPadding = 4;
+			
+			// aapt resource value: 6
+			public const int CardView_contentPadding = 6;
+			
+			// aapt resource value: 10
+			public const int CardView_contentPaddingBottom = 10;
+			
+			// aapt resource value: 7
+			public const int CardView_contentPaddingLeft = 7;
+			
+			// aapt resource value: 8
+			public const int CardView_contentPaddingRight = 8;
+			
+			// aapt resource value: 9
+			public const int CardView_contentPaddingTop = 9;
+			
+			public static int[] RobotoTextView = new int[] {
+					2130771979};
+			
+			// aapt resource value: 0
+			public const int RobotoTextView_typeface = 0;
+			
+			static Styleable()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Styleable()
 			{
 			}
 		}

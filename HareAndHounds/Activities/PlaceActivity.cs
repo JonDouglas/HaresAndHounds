@@ -1,17 +1,11 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using HareAndHounds.ViewModels;
 
-namespace HareAndHounds
+namespace HareAndHounds.Activities
 {
     [Activity(Label = "PlaceActivity")]
     public class PlaceActivity : Activity
@@ -32,11 +26,11 @@ namespace HareAndHounds
             SetContentView(Resource.Layout.Place);
 
             mainImage = FindViewById<ImageView>(Resource.Id.main_image);
-            mainText = FindViewById<TextView>(Resource.Id.main_text);
+            //mainText = FindViewById<TextView>(Resource.Id.main_text);
 
             buttonContinue = FindViewById<Button>(Resource.Id.button_continue);
             buttonContinue.Click += ButtonContinueOnClick;
-            buttonContinue.Visibility = ViewStates.Gone;
+            //buttonContinue.Visibility = ViewStates.Gone;
             // Create your application here
         }
 
@@ -48,10 +42,10 @@ namespace HareAndHounds
             //    return;
             //}
 
-            //Intent intent = new Intent(this, typeof(PlaceQuestionActivity));
+            Intent intent = new Intent(this, typeof(PlaceQuestionActivity));
 
-            //StartActivity(intent);
-            //OverridePendingTransition(Resource.Animation.slide_in_up, Resource.Animation.slide_out_up); 
+            StartActivity(intent);
+            OverridePendingTransition(Resource.Animation.slide_in_up, Resource.Animation.slide_out_up); 
         }
 
         private void GoToGameComplete()

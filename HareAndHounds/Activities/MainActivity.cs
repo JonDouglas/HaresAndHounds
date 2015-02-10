@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Linq;
 using Android.App;
 using Android.Content;
-using Android.Runtime;
-using Android.Util;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
-using HareAndHounds.Helpers;
+using Android.Util;
+using Android.Widget;
 using HareAndHounds.ViewModels;
 
-namespace HareAndHounds
+namespace HareAndHounds.Activities
 {
     [Activity(Label = "HareAndHounds", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
