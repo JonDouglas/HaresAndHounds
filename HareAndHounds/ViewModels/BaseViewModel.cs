@@ -24,5 +24,22 @@ namespace HareAndHounds.ViewModels
 
             PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        protected void SetProperty<T>(
+            ref T backingStore, T value,
+            string propertyName,
+            Action onChanged = null)
+        {
+            if (EqualityComparer<T>.Default.Equals(backingStore, value))
+                return;
+
+
+            backingStore = value;
+
+            if (onChanged != null)
+                onChanged();
+
+            OnPropertyChanged(propertyName);
+        }
     }
 }

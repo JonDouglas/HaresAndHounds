@@ -2,6 +2,7 @@
 using Android.App;
 using Android.Content;
 using Android.OS;
+using Android.Text;
 using Android.Util;
 using Android.Widget;
 using HareAndHounds.ViewModels;
@@ -23,7 +24,8 @@ namespace HareAndHounds.Activities
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-
+            EditText e = new EditText(this);
+            e.InputType = InputTypes.TextFlagNoSuggestions;
             viewModel = new HomeViewModel();
 
             buttonPlay = FindViewById<Button>(Resource.Id.button_play);
